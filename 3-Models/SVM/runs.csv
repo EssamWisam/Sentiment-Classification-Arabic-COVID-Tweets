@@ -1,0 +1,4 @@
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,One-hot Vector,SVM-1,poly,0.802,0.32603930336807724,0.7265832703120376
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,One-hot Vector,SVM-2,poly,0.498,0.10736528520297668,0.4019612089222796

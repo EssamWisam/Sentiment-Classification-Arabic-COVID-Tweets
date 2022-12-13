@@ -1,0 +1,4 @@
+approach,max_len,method,Model,Number of Boosters,acc,BF1,WF1
+Hand-made,30,One-hot Vector,GB-1,300,0.796,0.339942149347874,0.727510875185976
+approach,max_len,method,Model,Number of Boosters,acc,BF1,WF1
+Hand-made,30,One-hot Vector,GB-2,300,0.617,0.22661331000205237,0.5680244089510303
