@@ -1,4 +1,16 @@
 approach,max_len,method,Model,Kernel,acc,BF1,WF1
-Hand-made,30,One-hot Vector,SVM-1,poly,0.802,0.32603930336807724,0.7265832703120376
+Hand-made,30,One-hot Vector,SVM-1,poly,0.802,0.326039303,0.72658327
 approach,max_len,method,Model,Kernel,acc,BF1,WF1
-Hand-made,30,One-hot Vector,SVM-2,poly,0.498,0.10736528520297668,0.4019612089222796
+Hand-made,30,One-hot Vector,SVM-2,poly,0.498,0.107365285,0.401961209
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,TF-IDF Uni-gram,SVM-1,poly,0.814,0.403726149,0.752993594
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,TF-IDF Uni-gram,SVM-1,poly,0.814,0.403726149,0.752993594
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,TF-IDF Bi-gram,SVM-1,poly,0.814,0.400429265,0.752624714
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,TF-IDF Tri-gram,SVM-1,poly,0.813,0.392445077,0.750206259
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729,0.750516595
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729340828,0.7505165948022285
