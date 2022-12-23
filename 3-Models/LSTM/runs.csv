@@ -1,2 +1,22 @@
 approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
 Hand-made,30,One-hot Vector,LSTM-1,128,2,200,256,0.5,0.001,5,5,0.804,0.4909361765843308,0.7839143490125163
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Hand-made,30,One-hot Vector,LSTM-2,128,2,200,256,0.5,0.001,5,5,0.67,0.200302660000954,0.5935169535027927
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Hand-made,30,One-hot Vector,LSTM-1,128,3,200,256,0.6,0.002,5,5,0.791,0.42612550184238024,0.7664765286256393
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Hand-made,40,One-hot Vector,LSTM-1,128,2,200,256,0.5,0.001,5,5,0.788,0.3785705006528141,0.7427932069948774
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Hand-made,30,One-hot Vector,LSTM-1,128,2,200,256,0.5,0.001,5,5,0.793,0.4362423827141842,0.766122422680901
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+NLTK,30,One-hot Vector,LSTM-1,128,2,200,256,0.5,0.001,5,5,0.795,0.38917808482721733,0.7504674908520045
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Hand-made,30,One-hot Vector,LSTM-1,256,2,200,300,0.5,0.001,5,5,0.798,0.3426294152796788,0.7314157802278337
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Snowball,30,One-hot Vector,LSTM-2,128,2,200,256,0.5,0.001,5,5,0.628,0.19976697525272655,0.5800771653864271
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Snowball,30,One-hot Vector,LSTM-1,256,2,200,300,0.5,0.001,5,5,0.803,0.3071869992175765,0.7205440646691854
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Snowball,50,One-hot Vector,LSTM-2,128,2,200,256,0.5,0.001,5,1,0.545,0.07055016181229774,0.3844983818770227
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
+Snowball,50,One-hot Vector,LSTM-1,256,2,200,300,0.5,0.001,5,5,True,0.164,0.1561075660763553,0.1406447205408295

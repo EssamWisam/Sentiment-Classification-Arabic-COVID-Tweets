@@ -2,3 +2,7 @@ approach,max_len,method,Model,Alpha,acc,BF1,WF1
 Hand-made,30,Bag of Words,NB-1,1,0.804,0.29711751662971175,0.7166474501108647
 approach,max_len,method,Model,Alpha,acc,BF1,WF1
 Hand-made,30,Bag of Words,NB-2,1,0.545,0.07055016181229774,0.3844983818770227
+approach,max_len,method,Model,Alpha,acc,BF1,WF1
+Snowball,50,Bag of Words,NB-1,1,0.808,0.44009011733551917,0.7687395764619156
+approach,max_len,method,Model,Alpha,acc,BF1,WF1
+Snowball,50,Bag of Words,NB-1,1,0.808,0.44009011733551917,0.7687395764619156

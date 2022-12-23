@@ -2,3 +2,16 @@ approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hi
 Hand-made,30,One-hot Vector,GRU-1,128,2,200,256,0.5,0.001,5,5,0.781,0.5304863461448659,0.7780260407466394
 approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
 Hand-made,30,One-hot Vector,GRU-2,128,2,200,256,0.5,0.001,5,5,0.662,0.2560178176995256,0.6232475229154204
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Snowball,30,One-hot Vector,GRU-2,512,2,200,256,0.5,0.001,5,5,0.628,0.1607788437977117,0.5280249184777487
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Snowball,30,One-hot Vector,GRU-1,128,2,200,256,0.5,0.001,5,5,0.811,0.4992972512798983,0.7839730888989959
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,acc,BF1,WF1
+Snowball,50,One-hot Vector,GRU-1,128,2,200,256,0.5,0.001,5,5,0.806,0.4049572307167286,0.74950978166522
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
+Snowball,50,One-hot Vector,GRU-2,512,2,200,256,0.5,0.001,5,5,True,0.009,0.005830013230825427,0.013630902324113075
+Snowball,50,One-hot Vector,GRU-1,128,2,200,256,0.5,0.001,5,5,True,0.607,0.4579579383699981,0.6650810702594867
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
+Snowball,50,One-hot Vector,GRU-2,512,2,200,256,0.5,0.001,5,5,True,0.011,0.012510789761941513,0.016963900174984916
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
+Snowball,50,One-hot Vector,GRU-2,512,2,200,256,0.5,0.001,5,5,True,0.121,0.05975601395749639,0.0975437029792663
