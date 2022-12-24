@@ -14,3 +14,7 @@ approach,max_len,method,Model,Kernel,acc,BF1,WF1
 Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729,0.750516595
 approach,max_len,method,Model,Kernel,acc,BF1,WF1
 Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729340828,0.7505165948022285
+approach,max_len,method,Model,Kernel,Weighted Loss,acc,BF1,WF1
+Snowball,50,TF-IDF n-gram,SVM-1,poly,True,0.81,0.5178450664115455,0.7905426958586126
+approach,max_len,method,Model,Kernel,Weighted Loss,acc,BF1,WF1
+Snowball,50,TF-IDF n-gram,SVM-2,poly,True,0.537,0.29294114996392356,0.5290071968017752

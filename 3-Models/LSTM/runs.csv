@@ -20,3 +20,5 @@ approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hi
 Snowball,50,One-hot Vector,LSTM-2,128,2,200,256,0.5,0.001,5,1,0.545,0.07055016181229774,0.3844983818770227
 approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
 Snowball,50,One-hot Vector,LSTM-1,256,2,200,300,0.5,0.001,5,5,True,0.164,0.1561075660763553,0.1406447205408295
+approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+Snowball,50,One-hot Vector,LSTM-1,256,2,200,300,0.5,0.001,5,5,True,"tensor([0.3000, 0.2500, 0.7000])",0.804,0.29711751662971175,0.7166474501108647
