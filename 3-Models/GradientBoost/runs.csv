@@ -2,3 +2,9 @@ approach,max_len,method,Model,Number of Boosters,acc,BF1,WF1
 Hand-made,30,One-hot Vector,GB-1,300,0.796,0.339942149347874,0.727510875185976
 approach,max_len,method,Model,Number of Boosters,acc,BF1,WF1
 Hand-made,30,One-hot Vector,GB-2,300,0.617,0.22661331000205237,0.5680244089510303
+approach,max_len,method,n-gram,oversampling,Model,Number of Boosters,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,False,GB-1,300,0.808,0.41530006912172523,0.7553768993214853
+approach,max_len,method,n-gram,oversampling,Model,Number of Boosters,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,True,GB-1,300,0.797,0.5020668590228637,0.7754971520750357
+approach,max_len,method,n-gram,oversampling,Model,Number of Boosters,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,False,GB-2,300,0.658,0.3404764012755834,0.6284401960839737
