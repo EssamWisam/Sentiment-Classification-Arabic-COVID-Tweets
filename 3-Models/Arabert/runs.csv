@@ -2,3 +2,5 @@ approach,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Nu
 contextual,Arabert-1,128,768,512,3e-06,300,False,"tensor([0.3000, 0.2500, 0.7000])",0.435,0.27235142618773095,0.4937965312571588
 approach,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
 contextual,Arabert-2,128,768,512,3e-06,300,False,"tensor([0.3000, 0.2500, 0.7000])",0.132,0.0660753515234169,0.14543352645637597
+approach,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,Arabert-1,512,768,512,3e-06,300,True,"tensor([0.3000, 0.2500, 0.7000])",0.531,0.3179848093760372,0.5830804033217003

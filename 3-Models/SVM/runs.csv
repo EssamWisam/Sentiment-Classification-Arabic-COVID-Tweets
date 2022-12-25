@@ -26,3 +26,23 @@ approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,W
 Snowball,50,TF-IDF,Uni,True,SVM-1,poly,False,0.77,0.5543410952715655,0.7815128851166032
 approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
 Snowball,50,TF-IDF,Uni,False,SVM-2,poly,True,0.538,0.34244216708370134,0.5576613513051317
+approach,Model,Kernel,Weighted Loss,acc,BF1,WF1
+contextual,SVM-1,poly,False,0.804,0.29711751662971175,0.7166474501108647
+approach,Model,Kernel,Weighted Loss,acc,BF1,WF1
+contextual,SVM-1,poly,False,0.813,0.37335010987892847,0.7478582133723463
+approach,Model,Kernel,Weighted Loss,acc,BF1,WF1
+contextual,SVM-1,poly,False,0.813,0.37335010987892847,0.7478582133723463
+approach,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+contextual,SVM-1,poly,False,False,True,0.8199799699549324,0.4900834477520534,0.7790889149184727
+approach,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+contextual,SVM-1,poly,False,True,False,0.126,0.07460035523978686,0.028198934280639434
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,SVM-1,rbf,False,True,False,0.782,0.5286965062785952,0.7778770558814588
+approach,method,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+contextual,contextual,SVM-1,rbf,False,False,True,0.8157235853780671,0.4494969913033365,0.7668569680919077
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,SVM-1,rbf,False,False,False,0.812,0.3679524999210923,0.7431351960434408
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,SVM-1,rbf,False,False,False,0.812,0.3679524999210923,0.7431351960434408
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
+Snowball,50,TF-IDF,Uni,SVM-1,rbf,True,True,False,0.782,0.5286965062785952,0.7778770558814588
