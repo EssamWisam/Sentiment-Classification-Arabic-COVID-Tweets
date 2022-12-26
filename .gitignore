@@ -1,3 +1,5 @@
 Research Papers/.DS_Store
-2-FeatureExtraction/WordEmbeddings/embedding_models
+2-FeatureExtraction/WordEmbeddings/aravec
+2-FeatureExtraction/WordEmbeddings/fasttext
 full_grams_cbow_300_twitter.zip
+cc.ar.300.vec.zip
