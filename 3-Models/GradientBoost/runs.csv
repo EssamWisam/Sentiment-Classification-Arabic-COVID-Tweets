@@ -8,3 +8,7 @@ approach,max_len,method,n-gram,oversampling,Model,Number of Boosters,acc,BF1,WF1
 Snowball,50,TF-IDF,Uni,True,GB-1,300,0.797,0.5020668590228637,0.7754971520750357
 approach,max_len,method,n-gram,oversampling,Model,Number of Boosters,acc,BF1,WF1
 Snowball,50,TF-IDF,Uni,False,GB-2,300,0.658,0.3404764012755834,0.6284401960839737
+approach,max_len,method,n-gram,Model,Number of Boosters,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,GB-1,200,0.488,0.41110835820335234,0.5506647221127317
+approach,max_len,method,n-gram,Model,Number of Boosters,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,GB-1,200,0.795,0.49166978749555884,0.7727985480943738

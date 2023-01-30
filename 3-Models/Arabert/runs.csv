@@ -4,3 +4,15 @@ approach,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Nu
 contextual,Arabert-2,128,768,512,3e-06,300,False,"tensor([0.3000, 0.2500, 0.7000])",0.132,0.0660753515234169,0.14543352645637597
 approach,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
 contextual,Arabert-1,512,768,512,3e-06,300,True,"tensor([0.3000, 0.2500, 0.7000])",0.531,0.3179848093760372,0.5830804033217003
+approach,method,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,contextual,Arabert-1,512,768,300,3e-06,300,True,"tensor([0.3000, 0.2500, 0.7000])",0.17,0.16182975261856664,0.19034226742557175
+approach,method,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,contextual,Arabert-1,512,768,300,3e-06,300,True,"tensor([0.3000, 0.7000, 0.7000])",0.311,0.23675053389527848,0.3858496903102758
+approach,method,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,contextual,Arabert-1,512,768,300,3e-05,300,False,"tensor([0.3000, 0.7000, 0.7000])",0.133,0.13470020323932258,0.13070754699628442
+approach,method,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,contextual,Arabert-1,2048,768,300,3e-06,300,False,"tensor([0.3000, 0.7000, 0.7000])",0.723,0.3240041396356631,0.6915544273373817
+approach,method,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,contextual,Arabert-1,2048,768,300,3e-06,500,False,"tensor([0.3000, 0.7000, 0.7000])",0.253,0.17415007215007217,0.2732967272727273
+approach,method,Model,batch_size,Hidden Dimension 1,Hidden Dimension 2,Learning Rate,Number of Epochs,Weighted Loss,Weights,acc,BF1,WF1
+contextual,contextual,Arabert-1,2048,768,1000,3e-06,300,False,"tensor([0.3000, 0.7000, 0.7000])",0.54,0.2993163133543553,0.5835312880753553

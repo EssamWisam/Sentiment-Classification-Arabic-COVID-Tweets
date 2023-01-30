@@ -12,20 +12,30 @@ approach,max_len,method,Model,Kernel,acc,BF1,WF1
 Hand-made,30,TF-IDF Tri-gram,SVM-1,poly,0.813,0.392445077,0.750206259
 approach,max_len,method,Model,Kernel,acc,BF1,WF1
 Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729,0.750516595
-approach,max_len,method,Model,Kernel,acc,BF1,WF1
-Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729340828,0.7505165948022285
+approach,max_len,method,Model,Kernel,acc,BF1,WF1
+
+Hand-made,30,TF-IDF n-gram,SVM-1,poly,0.813,0.392157729340828,0.7505165948022285
+
 approach,max_len,method,Model,Kernel,Weighted Loss,acc,BF1,WF1
 Snowball,50,TF-IDF n-gram,SVM-1,poly,True,0.81,0.5178450664115455,0.7905426958586126
 approach,max_len,method,Model,Kernel,Weighted Loss,acc,BF1,WF1
 Snowball,50,TF-IDF n-gram,SVM-2,poly,True,0.537,0.29294114996392356,0.5290071968017752
-approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
-Snowball,50,TF-IDF,Uni,False,SVM-1,poly,True,0.778,0.5555163431147058,0.7831983539653131
-approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
-Snowball,50,TF-IDF,Uni,True,SVM-1,poly,True,0.761,0.5417025899995426,0.7731842210524033
-approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
-Snowball,50,TF-IDF,Uni,True,SVM-1,poly,False,0.77,0.5543410952715655,0.7815128851166032
-approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
-Snowball,50,TF-IDF,Uni,False,SVM-2,poly,True,0.538,0.34244216708370134,0.5576613513051317
+approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
+
+Snowball,50,TF-IDF,Uni,False,SVM-1,poly,True,0.778,0.5555163431147058,0.7831983539653131
+
+approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
+
+Snowball,50,TF-IDF,Uni,True,SVM-1,poly,True,0.761,0.5417025899995426,0.7731842210524033
+
+approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
+
+Snowball,50,TF-IDF,Uni,True,SVM-1,poly,False,0.77,0.5543410952715655,0.7815128851166032
+
+approach,max_len,method,n-gram,oversampling,Model,Kernel,Weighted Loss,acc,BF1,WF1
+
+Snowball,50,TF-IDF,Uni,False,SVM-2,poly,True,0.538,0.34244216708370134,0.5576613513051317
+
 approach,Model,Kernel,Weighted Loss,acc,BF1,WF1
 contextual,SVM-1,poly,False,0.804,0.29711751662971175,0.7166474501108647
 approach,Model,Kernel,Weighted Loss,acc,BF1,WF1
@@ -46,3 +56,32 @@ approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossVali
 Snowball,50,TF-IDF,Uni,SVM-1,rbf,False,False,False,0.812,0.3679524999210923,0.7431351960434408
 approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,acc,BF1,WF1
 Snowball,50,TF-IDF,Uni,SVM-1,rbf,True,True,False,0.782,0.5286965062785952,0.7778770558814588
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,rbf,False,True,False,5,0.806,0.5080989659633938,0.7844681135381444
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,rbf,False,True,False,20,0.81,0.5060802296960185,0.7864265956298871
+
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,rbf,False,True,False,0.1,0.767,0.4462610017362783,0.7450978645197656
+approach,max_len,method,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,Bag of Words,SVM-1,rbf,False,True,False,1.0,0.785,0.4802995311860152,0.7641747357446184
+approach,method,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+contextual,contextual,SVM-1,rbf,False,True,False,1.0,0.545,0.07055016181229774,0.3844983818770227
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,rbf,False,False,False,1.0,0.813,0.3919429796448565,0.7495861089810895
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Hand-made,30,TF-IDF,Uni,SVM-1,rbf,False,False,False,1.0,0.814,0.4038038038038038,0.7513581081081081
+approach,method,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+contextual,contextual,SVM-1,rbf,False,True,False,1.0,0.545,0.07055016181229774,0.3844983818770227
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,rbf,False,False,False,1.0,0.813,0.3919429796448565,0.7495861089810895
+approach,method,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+contextual,contextual,SVM-1,rbf,False,True,False,1.0,0.545,0.07055016181229774,0.3844983818770227
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,rbf,False,True,False,1.0,0.806,0.5145374077672679,0.7825990523552493
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,poly,False,True,False,3.0,0.782,0.5327926059438862,0.7813413100911087
+approach,method,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+contextual,contextual,SVM-1,poly,False,True,False,3,0.036,0.006949806949806949,0.0025019305019305014
+approach,max_len,method,n-gram,Model,Kernel,Weighted Loss,Oversampling,CrossValidation,C,acc,BF1,WF1
+Snowball,30,TF-IDF,Uni,SVM-1,poly,False,True,False,3,0.561,0.28875306092218667,0.5686662341566239

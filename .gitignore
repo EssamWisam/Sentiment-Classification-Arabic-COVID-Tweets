@@ -3,3 +3,16 @@ Research Papers/.DS_Store
 2-FeatureExtraction/.DS_Store
 Dataset/.DS_Store
 Dataset/SavedFeatures/.DS_Store
+Dataset/SavedFeatures/TF-IDF/Preprocessing.npy
+Dataset/SavedFeatures/TF-IDF/vocabulary.npy
+Dataset/SavedFeatures/TF-IDF/x.npy
+Dataset/SavedFeatures/TF-IDF/X_test.npy
+3-Models/GRU/data.txt
+Dataset/SavedFeatures/TF-IDF/X_test.npy
+Dataset/SavedFeatures/TF-IDF/x.npy
+Dataset/SavedFeatures/TF-IDF/vocabulary.npy
+Dataset/SavedFeatures/TF-IDF/Preprocessing.npy
+Dataset/SavedFeatures/TF-IDF/X_test.npy
+Dataset/SavedFeatures/TF-IDF/x.npy
+Dataset/SavedFeatures/TF-IDF/vocabulary.npy
+Dataset/SavedFeatures/TF-IDF/Preprocessing.npy

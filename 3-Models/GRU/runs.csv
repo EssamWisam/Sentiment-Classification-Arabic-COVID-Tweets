@@ -15,3 +15,7 @@ approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hi
 Snowball,50,One-hot Vector,GRU-2,512,2,200,256,0.5,0.001,5,5,True,0.011,0.012510789761941513,0.016963900174984916
 approach,max_len,method,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
 Snowball,50,One-hot Vector,GRU-2,512,2,200,256,0.5,0.001,5,5,True,0.121,0.05975601395749639,0.0975437029792663
+approach,max_len,method,FastText LR,emb_dim,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
+Snowball,30,FastText,0.05,300,GRU-1,128,2,300,256,0.5,0.001,5,5,True,0.556,0.3497486192576185,0.6066421277991557
+approach,max_len,method,FastText LR,emb_dim,Model,batch_size,Number of Layers,Embedding Dimension,Hidden Dimension,Dropout Prob,Learning Rate,Gradient Clip,Number of Epochs,Weighted Loss,acc,BF1,WF1
+Snowball,30,FastText,0.05,300,GRU-2,512,2,300,256,0.5,0.001,5,5,True,0.193,0.10652870017424523,0.13078236941881655
