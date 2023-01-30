@@ -58,7 +58,7 @@ Macro F1 Score
 </tr>
 </table>
 
-The figures severely drop if class weighting is ignored.
+The figures severely drop if class weighting is ignored. For more details check Report.pdf
 
 
 ## Running the Project 🚀
